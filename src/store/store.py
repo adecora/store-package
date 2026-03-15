@@ -3,8 +3,6 @@ from importlib.resources.abc import Traversable
 from pathlib import Path
 from typing import TypedDict
 
-print(files("store").joinpath("data/store.txt").read_text())
-
 
 class Item(TypedDict):
     cmin: int

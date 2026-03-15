@@ -22,8 +22,8 @@ dev = [
     "pytest-cov>=7.0.0",
 ]
 
-# [tool.setuptools.package-data]
-# data = ["data/*.txt"]
+[tool.setuptools.package-data]
+store = ["data/*.txt"]
 
 [tool.pytest.ini_options]
 testpaths = "tests"
